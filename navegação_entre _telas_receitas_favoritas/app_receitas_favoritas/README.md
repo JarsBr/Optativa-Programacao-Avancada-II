@@ -1,6 +1,6 @@
 # 📱 App de Receitas Favoritas
 
-## 🎯 Objetivo
+## Objetivo
 Desenvolver um aplicativo Flutter para gerenciar receitas, aplicando a navegação por abas e entre telas
 
 Metodologia do app:
@@ -8,7 +8,7 @@ Imagine que você está criando um aplicativo de receitas. A experiência do usu
 
 ---
 
-## 📝 Descrição
+## Descrição
 O aplicativo simula um gerenciador de receitas onde o usuário pode:
 - Navegar entre três categorias principais: **Doces**, **Salgadas** e **Bebidas**.
 - Visualizar receitas representadas por **Cards**.
@@ -18,7 +18,7 @@ O aplicativo simula um gerenciador de receitas onde o usuário pode:
 
 ---
 
-## 🖼️ Estrutura do App
+## Estrutura do App
 - **Tela Principal**  
   Navegação inferior com 4 abas: Doces, Salgadas, Bebidas e Favoritos.  
 
