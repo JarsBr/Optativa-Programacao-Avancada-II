@@ -11,9 +11,9 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     final viewModels = Provider.of<List<TasksViewModel>>(context);
 
-    final vmPrefs  = viewModels[0]; // SharedPreferences
-    final vmFile   = viewModels[1]; // File
-    final vmSqlite = viewModels[2]; // SQLite
+    final vmPrefs  = viewModels[0];
+    final vmFile   = viewModels[1];
+    final vmSqlite = viewModels[2];
 
     return DefaultTabController(
       length: 3,

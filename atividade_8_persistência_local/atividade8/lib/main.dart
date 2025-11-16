@@ -8,7 +8,7 @@ import 'data/datasources/tasks_sqlite_storage.dart';
 import 'data/repositories/tasks_repository.dart';
 import 'viewmodels/tasks_viewmodel.dart';
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   runApp(
@@ -26,7 +26,6 @@ void main() {
               repository: TasksRepository(storage: TasksSqliteStorage()),
             );
 
-            // carrega as tarefas salvas para cada versão
             vmPrefs.loadTasks();
             vmFile.loadTasks();
             vmSqlite.loadTasks();
